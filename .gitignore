@@ -1,0 +1,5 @@
+/lib
+/dist
+*.docx
+*.pdf
+/node_modules

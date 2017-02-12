@@ -1,0 +1,15 @@
+{
+  "name": "monte-carlo-pi-simulator",
+  "version": "0.0.1",
+  "description": "Node.js Pi simulator using monte carlo simulation",
+  "main": "index.js",
+  "scripts": {
+    "compile": "lsc -b -o dist -c index.ls with-progress.ls ",
+    "sim-withprogress": "npm run compile; node dist/with-progress.js",
+    "sim": "npm run compile; node dist/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "livescript": "^1.5.0"
+  }
+}
